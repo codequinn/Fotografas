@@ -1,0 +1,384 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yesteryear&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+
+body{
+    
+    font-family: 'Poppins', sans-serif;
+}
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     
+} 
+p{
+  
+    font-size: 30px;
+}
+.about-heading{
+    left: 70%;
+    margin-top: 80px;
+
+
+
+}
+
+.about-heading2{
+    left: 70%;
+    margin-top: 80px;
+
+
+
+}
+.s-later{
+    margin-top: 130px;
+}
+.session img{
+    margin-top: 150px;
+}
+.s-later hr{
+    width: 30px;
+    height: 5px;
+    position: absolute;
+   left: 29.5%;
+   top: 455%;
+    background-color: tomato;
+}
+.about-later hr{
+    width: 30px;
+    height: 5px;
+    position: absolute;
+    left: 40%;
+    top: 118%;
+    background-color: tomato;
+}
+.about-img{
+    float: left;
+    margin: 15px;
+    width: 500px;
+    height: 500px;
+}
+.about-img2{
+    float: left;
+    margin: 15px;
+    width: 500px;
+    height: 500px;
+}
+.gallery{
+    margin: 10px;
+}
+.gallery h1{
+   padding: 8px 16px;
+}
+.port img{
+    width: max-content;
+}
+.session-img{
+    float: left;
+    margin-top: 100px;
+    margin-left: 10px;
+    width: 400px;
+    height: 400px;
+    margin-right: 15px;
+}
+.brand{
+    text-align: left;
+   top: 5px;
+      position: absolute;
+  left: 10px;
+}
+.logo{
+    float: left;
+}
+header{
+    background: url(img/header.png);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+ .brand{
+       text-decoration: none;
+    font-size: 30px;
+color: black;
+    list-style-type: none;
+ }
+ .brand:hover
+ {
+     color:rgb(255, 255, 255);
+     text-decoration: none;
+ }
+ .intro{
+      
+position: absolute;
+  top: 50%;
+  left: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  text-shadow: 0px 4px 30px rgba(199, 199, 199, 0.5);
+  color: white;
+    font-family: 'Poppins', sans-serif;
+ }
+ .intro-1{
+     font-size: 51px;
+ }
+
+ .work p{
+     font-size: 30px;
+    
+ }
+ 
+ .intro-2{
+     font-size: 26px;
+     text-align: center;
+ }
+ .debbie{
+     float: right;
+ }
+ .ellie img{
+     float: left;
+ }
+ p{
+     right: 20px;
+ }
+ .book2{
+   
+    font-weight: bold;
+}
+.heading{
+    text-align: center;
+    margin: 100px;
+}
+.book2 a{
+    color: black;
+    text-decoration: none;
+   background-color: tomato;
+   
+}
+.book2 a:link,.book a:visited {
+ background-color: tomato;
+ color: rgb(0, 0, 0);
+ padding: 14px 25px;
+
+ text-decoration: none;
+ display: inline-block;
+}
+
+.book2 a:hover{
+ background-color: #000000;
+ color: tomato;
+}
+ .book{
+     text-align: center;
+ }
+ .book a{
+     color: white;
+     text-decoration: none;
+    background-color: black;
+ }
+ .book a:link,.book a:visited {
+  background-color: #ffffff;
+  color: rgb(0, 0, 0);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.book4{
+    margin-top: 50px;
+}
+.book4 a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+   background-color: rgb(255, 255, 255);
+   border: 3px solid black;
+}
+.book4 a:link,.book a:visited {
+ background-color: #ffffff;
+ color: rgb(0, 0, 0);
+ padding: 14px 25px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+}
+.work hr{
+    width: 100%;
+    height: 1px;
+   
+   
+    background-color: tomato;
+}
+.camra{
+    width: 470px;
+     float: right;
+    height: 400px;
+}
+.work{
+    margin: 1px;
+}
+.work img{
+    margin: 3px;
+}
+.services{
+   margin:10px;
+}
+.ellie{
+    margin-top: 100px;
+        }
+.book a:hover{
+  background-color: #000000;
+  color: #ffffff;
+}
+
+.book5 a{
+    color: #000000;
+    text-decoration: none;
+   background-color: rgb(255, 255, 255);
+   border: 1px solid black;
+}
+.book5 a:link,.book a:visited {
+ background-color: #ffffff;
+ color: rgb(0, 0, 0);
+ padding: 14px 25px;
+ text-align: center;
+ text-decoration: none;
+ display: inline-block;
+}
+.book5 a:hover{
+    background-color: #000000;
+    color: #ffffff;
+  }
+.session{
+    margin-top: 100px;
+    margin-left: 0;
+}
+.port{
+    background: url(img/port.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin-top: 400px;
+}
+@media screen and (max-width: 800px){
+    .session-img{
+
+    }
+.port{
+    background: url(img/PORT-S.png);
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    margin-top: 1000px;
+    margin-bottom: 1000px;
+  }
+    .about-later hr{
+        width: 30px;
+        height: 5px;
+        position: absolute;
+        left: 0.5%;
+        top: 170%;
+        background-color: tomato;
+    }
+    .s-later hr{
+        width: 30px;
+        height: 5px;
+        position: absolute;
+        left: 0.5%;
+        top: 729%;
+        background-color: tomato;
+    }
+    .intro-1{
+          font-size: 30px;
+          text-align: center;
+          word-wrap: keep-all;
+      }
+      .session hr{
+        width: 30px;
+        height: 5px;
+        position: absolute;
+        left: 40%;
+        top: 200%;
+        background-color: tomato;
+      }
+    
+     .about-img{
+    width: 350px;
+    height: 350px;
+     }
+     .about-img{
+    max-width: 100%;
+    height: auto;
+         }
+     .session-img{
+        width: 350px;
+        height: 350px;
+       
+    }
+    .s-heading{
+
+    }
+    .brand{
+        font-size: 25px;
+    }
+    .work img{
+        width: 450px;
+        height: 400px;
+    }
+
+    p{
+        font-size: 15px;
+    }
+ 
+    .work p{
+        font-size: 15px;
+    }
+  
+}
+
+
+  div.gallery img {
+    width: 100%;
+    height: auto;
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .responsive {
+    padding: 0 6px;
+    float: left;
+    width: 24.99999%;
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .responsive {
+      width: 49.99999%;
+      margin: 6px 0;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .responsive {
+      width: 100%;
+    }
+  }
+  
+  .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
